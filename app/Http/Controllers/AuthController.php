@@ -24,11 +24,10 @@ class AuthController extends Controller
 	 */
 	public function handleProviderCallback()
 	{
-		$user = Socialite::driver('line')->user();
-
+		$user = Socialite::driver('line')->stateless()->user();
 		$lineid = $user->getId();
-		return view('qr')->with('id',$lineid);
+		return view('qr')->with('id', $lineid);
 		// $user->token;
 	}
-    //
+	//
 }

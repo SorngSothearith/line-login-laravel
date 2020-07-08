@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58ddf104c55a5a54f4416465a8cc417b",
+    "content-hash": "31ddb06e5c22b5c141b660dc11b53b20",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -587,6 +587,7 @@
                     "homepage": "http://www.acci.cz"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2014-04-08T15:00:19+00:00"
         },
         {
@@ -631,6 +632,7 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
@@ -1158,6 +1160,7 @@
                 "cron",
                 "schedule"
             ],
+            "abandoned": "dragonmantank/cron-expression",
             "time": "2017-01-23T04:29:33+00:00"
         },
         {
@@ -1723,16 +1726,16 @@
         },
         {
             "name": "socialiteproviders/line",
-            "version": "v1.0.1",
+            "version": "v2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SocialiteProviders/Line.git",
-                "reference": "ea1be81ab7f720ea9dffd67ba2bde34c017a41f6"
+                "reference": "c32d86d3293adf42590aa9c7c53051deadcbba12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SocialiteProviders/Line/zipball/ea1be81ab7f720ea9dffd67ba2bde34c017a41f6",
-                "reference": "ea1be81ab7f720ea9dffd67ba2bde34c017a41f6",
+                "url": "https://api.github.com/repos/SocialiteProviders/Line/zipball/c32d86d3293adf42590aa9c7c53051deadcbba12",
+                "reference": "c32d86d3293adf42590aa9c7c53051deadcbba12",
                 "shasum": ""
             },
             "require": {
@@ -1756,7 +1759,7 @@
                 }
             ],
             "description": "Line Provider for Laravel Socialite",
-            "time": "2017-03-03T13:44:47+00:00"
+            "time": "2018-09-03T10:32:12+00:00"
         },
         {
             "name": "socialiteproviders/manager",
